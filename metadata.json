@@ -1,0 +1,6 @@
+{
+  "name": "Software Lego",
+  "description": "Visual node-based software builder for architecting modern apps with modular Lego-style blocks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
