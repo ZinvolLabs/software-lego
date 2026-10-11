@@ -47,7 +47,7 @@ function LegoBuilder() {
           {
             ...connection,
             animated: true,
-            style: { stroke: '#6366F1', strokeWidth: 2.5 },
+            style: { stroke: '#111111', strokeWidth: 3 },
           },
           eds
         )
@@ -207,7 +207,7 @@ function LegoBuilder() {
       eds.map((e) => ({
         ...e,
         animated: true,
-        style: { ...e.style, stroke: '#F59E0B', strokeWidth: 4 },
+        style: { ...e.style, stroke: '#FF1B7A', strokeWidth: 4 },
       }))
     );
 
@@ -217,7 +217,7 @@ function LegoBuilder() {
           const original = originalStyles.find((o) => o.id === e.id);
           return {
             ...e,
-            style: original?.style || { stroke: '#6366F1', strokeWidth: 2.5 },
+            style: original?.style || { stroke: '#111111', strokeWidth: 3 },
           };
         })
       );
@@ -226,7 +226,7 @@ function LegoBuilder() {
   }, [isSimulating, nodes.length, edges, setEdges]);
 
   return (
-    <div className="flex flex-col h-screen w-screen bg-slate-950 text-slate-100 overflow-hidden font-sans">
+    <div className="retro-app flex flex-col h-screen w-screen overflow-hidden">
       {/* Top Application Header */}
       <Header
         nodeCount={nodes.length}

@@ -54,7 +54,7 @@ export const STARTER_PRESET_EDGES: Edge[] = [
     target: 'node_db_1',
     targetHandle: 'in',
     animated: true,
-    style: { stroke: '#10B981', strokeWidth: 2 },
+    style: { stroke: '#111111', strokeWidth: 3 },
   },
   {
     id: 'edge_db_to_ai',
@@ -63,7 +63,7 @@ export const STARTER_PRESET_EDGES: Edge[] = [
     target: 'node_ai_1',
     targetHandle: 'context',
     animated: true,
-    style: { stroke: '#8B5CF6', strokeWidth: 2 },
+    style: { stroke: '#111111', strokeWidth: 3 },
   },
 ];
 
@@ -131,7 +131,7 @@ export const TEMPLATES = [
         target: 'tpl_db',
         targetHandle: 'in',
         animated: true,
-        style: { stroke: '#10B981', strokeWidth: 2 },
+        style: { stroke: '#111111', strokeWidth: 3 },
       },
       {
         id: 'e2',
@@ -140,7 +140,7 @@ export const TEMPLATES = [
         target: 'tpl_cond',
         targetHandle: 'input',
         animated: true,
-        style: { stroke: '#F97316', strokeWidth: 2 },
+        style: { stroke: '#111111', strokeWidth: 3 },
       },
       {
         id: 'e3',
@@ -149,7 +149,7 @@ export const TEMPLATES = [
         target: 'tpl_pay',
         targetHandle: 'charge_req',
         animated: true,
-        style: { stroke: '#EC4899', strokeWidth: 2 },
+        style: { stroke: '#111111', strokeWidth: 3 },
       },
     ],
   },
@@ -211,7 +211,7 @@ export const TEMPLATES = [
         target: 'doc_upload',
         targetHandle: 'file_in',
         animated: true,
-        style: { stroke: '#06B6D4', strokeWidth: 2 },
+        style: { stroke: '#111111', strokeWidth: 3 },
       },
       {
         id: 'de2',
@@ -220,7 +220,7 @@ export const TEMPLATES = [
         target: 'doc_ai',
         targetHandle: 'context',
         animated: true,
-        style: { stroke: '#8B5CF6', strokeWidth: 2 },
+        style: { stroke: '#111111', strokeWidth: 3 },
       },
       {
         id: 'de3',
@@ -229,7 +229,7 @@ export const TEMPLATES = [
         target: 'doc_db',
         targetHandle: 'in',
         animated: true,
-        style: { stroke: '#10B981', strokeWidth: 2 },
+        style: { stroke: '#111111', strokeWidth: 3 },
       },
     ],
   },

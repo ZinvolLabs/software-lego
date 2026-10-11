@@ -67,7 +67,7 @@ export const NodeConfigDrawer: React.FC<NodeConfigDrawerProps> = ({
   };
 
   return (
-    <div className="w-84 h-full bg-slate-950/95 border-l border-slate-800/80 flex flex-col z-20 backdrop-blur-md shadow-2xl shrink-0">
+    <div className="retro-drawer w-84 h-full flex flex-col z-20 shrink-0">
       {/* Header */}
       <div className="p-4 border-b border-slate-800 flex items-center justify-between">
         <div className="flex items-center space-x-2.5">
