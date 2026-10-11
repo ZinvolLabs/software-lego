@@ -207,7 +207,13 @@ function LegoBuilder() {
       eds.map((e) => ({
         ...e,
         animated: true,
-        style: { ...e.style, stroke: '#FF1B7A', strokeWidth: 4 },
+        style: {
+  ...e.style,
+  stroke: '#FFFFFF',
+  strokeWidth: 7,
+  strokeOpacity: 1,
+  filter: 'drop-shadow(0 0 6px rgba(255,255,255,0.95))',
+},
       }))
     );
 
@@ -217,7 +223,13 @@ function LegoBuilder() {
           const original = originalStyles.find((o) => o.id === e.id);
           return {
             ...e,
-            style: original?.style || { stroke: '#111111', strokeWidth: 3 },
+            style: {
+  ...original?.style,
+  stroke: '#FFFFFF',
+  strokeWidth: 4,
+  strokeOpacity: 0.95,
+  filter: 'none',
+},
           };
         })
       );
