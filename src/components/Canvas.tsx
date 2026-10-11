@@ -100,7 +100,11 @@ export const Canvas: React.FC<CanvasProps> = ({
         snapGrid={[16, 16]}
         defaultEdgeOptions={{
           animated: true,
-          style: { stroke: '#111111', strokeWidth: 3 },
+          style: {
+  stroke: '#FFFFFF',
+  strokeWidth: 4,
+  strokeOpacity: 0.95,
+},
         }}
         proOptions={{ hideAttribution: true }}
         className="software-lego-flow retro-flow"
